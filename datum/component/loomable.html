@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;datum&#x2F;component&#x2F;loomable - &#x2F;tg&#x2F; Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">&#x2F;tg&#x2F; Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="datum/component/loomable.html#var">Var Details</a> - <a href="datum/component/loomable.html#proc">Proc Details</a></header>
+<main>
+<h1>loomable <aside>/<a href="datum.html">datum</a>/<a href="datum/component.html">component</a>/<a href="datum/component/loomable.html">loomable</a></aside>
+        
+    
+            <a href="https://github.com/HWSensum/Fluffy-Frontier-Sensum/blob/026f1c86721deec3d6c5738271e5732be2b91d5e/code/datums/components/loomable.dm#L2">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;loomable.dm 2"/></a></h1>
+
+<p>Component that makes items turn into other items when you use them on a loom (or any other thing really if you change the var)</p><table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="datum/component/loomable.html#var/loom_time">loom_time</a></th><td>How long it takes to loom the parent</td></tr>
+            <tr><th><a href="datum/component/loomable.html#var/process_completion_verb">process_completion_verb</a></th><td>What verb best fits the action of processing whatever the item is, for example &quot;spun [thing]&quot;</td></tr>
+            <tr><th><a href="datum/component/loomable.html#var/required_amount">required_amount</a></th><td>How much of parent do we need to loom, will be ignored if parent isnt a stack</td></tr>
+            <tr><th><a href="datum/component/loomable.html#var/resulting_item">resulting_item</a></th><td>What will spawn when the parent is loomed</td></tr>
+            <tr><th><a href="datum/component/loomable.html#var/target_needs_anchoring">target_needs_anchoring</a></th><td>If target_thing needs to be anchored</td></tr>
+            <tr><th><a href="datum/component/loomable.html#var/target_thing">target_thing</a></th><td>What thing we look for triggering the loom process (usually a loom)</td></tr><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="datum/component/loomable.html#proc/loom_me">loom_me</a></th><td>If a do_after of the specified loom_time passes, will create a new one of resulting_item and either delete the parent, or .use the required amount if its a stack</td></tr>
+            <tr><th><a href="datum/component/loomable.html#proc/on_examine">on_examine</a></th><td>Adds an examine blurb to the description of any item that can be loomed</td></tr>
+            <tr><th><a href="datum/component/loomable.html#proc/try_and_loom_me">try_and_loom_me</a></th><td>Checks if the thing we clicked on can be used as a loom, and if we can actually loom the parent at present (an example being does the stack have enough in it (if its a stack))</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/loom_time"><aside class="declaration">var </aside>loom_time
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/HWSensum/Fluffy-Frontier-Sensum/blob/026f1c86721deec3d6c5738271e5732be2b91d5e/code/datums/components/loomable.dm#L16">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;loomable.dm 16"/></a></h3>
+        <p>How long it takes to loom the parent</p><h3 id="var/process_completion_verb"><aside class="declaration">var </aside>process_completion_verb
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/HWSensum/Fluffy-Frontier-Sensum/blob/026f1c86721deec3d6c5738271e5732be2b91d5e/code/datums/components/loomable.dm#L10">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;loomable.dm 10"/></a></h3>
+        <p>What verb best fits the action of processing whatever the item is, for example &quot;spun [thing]&quot;</p><h3 id="var/required_amount"><aside class="declaration">var </aside>required_amount
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/HWSensum/Fluffy-Frontier-Sensum/blob/026f1c86721deec3d6c5738271e5732be2b91d5e/code/datums/components/loomable.dm#L6">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;loomable.dm 6"/></a></h3>
+        <p>How much of parent do we need to loom, will be ignored if parent isnt a stack</p><h3 id="var/resulting_item"><aside class="declaration">var </aside>resulting_item
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/HWSensum/Fluffy-Frontier-Sensum/blob/026f1c86721deec3d6c5738271e5732be2b91d5e/code/datums/components/loomable.dm#L4">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;loomable.dm 4"/></a></h3>
+        <p>What will spawn when the parent is loomed</p><h3 id="var/target_needs_anchoring"><aside class="declaration">var </aside>target_needs_anchoring
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/HWSensum/Fluffy-Frontier-Sensum/blob/026f1c86721deec3d6c5738271e5732be2b91d5e/code/datums/components/loomable.dm#L12">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;loomable.dm 12"/></a></h3>
+        <p>If target_thing needs to be anchored</p><h3 id="var/target_thing"><aside class="declaration">var </aside>target_thing
+            <aside>&ndash; /<a href="obj.html">obj</a></aside>
+        
+    
+            <a href="https://github.com/HWSensum/Fluffy-Frontier-Sensum/blob/026f1c86721deec3d6c5738271e5732be2b91d5e/code/datums/components/loomable.dm#L8">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;loomable.dm 8"/></a></h3>
+        <p>What thing we look for triggering the loom process (usually a loom)</p><h2 id="proc">Proc Details</h2><h3 id="proc/loom_me"><aside class="declaration">proc </aside>loom_me<aside>(/<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/user, /<a href="obj.html">obj</a>/structure/loom/target) 
+        
+    
+            <a href="https://github.com/HWSensum/Fluffy-Frontier-Sensum/blob/026f1c86721deec3d6c5738271e5732be2b91d5e/code/datums/components/loomable.dm#L60">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;loomable.dm 60"/></a></aside>
+        </h3>
+        <p>If a do_after of the specified loom_time passes, will create a new one of resulting_item and either delete the parent, or .use the required amount if its a stack</p><h3 id="proc/on_examine"><aside class="declaration">proc </aside>on_examine<aside>(/<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/source, /<a href="mob.html">mob</a>/examiner, /list/examine_list) 
+        
+    
+            <a href="https://github.com/HWSensum/Fluffy-Frontier-Sensum/blob/026f1c86721deec3d6c5738271e5732be2b91d5e/code/datums/components/loomable.dm#L73">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;loomable.dm 73"/></a></aside>
+        </h3>
+        <p>Adds an examine blurb to the description of any item that can be loomed</p><h3 id="proc/try_and_loom_me"><aside class="declaration">proc </aside>try_and_loom_me<aside>(/<a href="datum.html">datum</a>/source, /<a href="obj.html">obj</a>/target, /<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/user) 
+        
+    
+            <a href="https://github.com/HWSensum/Fluffy-Frontier-Sensum/blob/026f1c86721deec3d6c5738271e5732be2b91d5e/code/datums/components/loomable.dm#L40">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;loomable.dm 40"/></a></aside>
+        </h3>
+        <p>Checks if the thing we clicked on can be used as a loom, and if we can actually loom the parent at present (an example being does the stack have enough in it (if its a stack))</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/HWSensum/Fluffy-Frontier-Sensum/tree/026f1c86721deec3d6c5738271e5732be2b91d5e">026f1c8</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/crates/dmdoc/README.md">dmdoc 1.7.3</a></footer>
+</body>
+</html>
