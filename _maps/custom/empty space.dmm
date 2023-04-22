@@ -1,0 +1,5 @@
+"a" = (/mob/living/simple_animal/bot/medbot/stationary{name = "Something somewhere"},/turf/open/space/basic,/area/space)
+
+(1,1,1) = {"
+a
+"}

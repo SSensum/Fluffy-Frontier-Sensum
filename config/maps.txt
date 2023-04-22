@@ -46,6 +46,9 @@ endmap
 
 ##SKYRAT MAPS##
 
+map blueshift
+endmap
+
 map voidraptor
 	maxplayers 100
 	votable
