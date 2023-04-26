@@ -1,0 +1,185 @@
+"ac" = (/obj/machinery/light_switch/directional/east,/turf/open/floor/wood,/area/centcom/central_command_areas/briefing{name = "Living Room"})
+"am" = (/obj/machinery/door/poddoor/shutters/indestructible,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
+"aG" = (/obj/structure/chair/sofa/corp/left{dir = 1},/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"bd" = (/obj/structure/sign/poster/contraband/syndicate_medical,/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
+"bi" = (/obj/structure/disposalconstruct{dir = 2},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"bD" = (/turf/open/space/basic,/area/space)
+"cu" = (/turf/closed/indestructible/riveted,/area/centcom/interlink{name = "Outdoors"})
+"cA" = (/turf/closed/indestructible/riveted,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"cE" = (/obj/machinery/conveyor/auto{dir = 4},/turf/open/indestructible,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"dy" = (/obj/structure/chair/sofa/corp/right{dir = 1},/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"dH" = (/mob/living/simple_animal/bot/medbot/stationary{name = "Something Somewhere"},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"dU" = (/obj/structure/closet/cabinet,/turf/open/floor/wood,/area/centcom/central_command_areas/armory{name = "Bedroom"})
+"dY" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/curtain/cloth/fancy/mechanical{id = bedroom1},/turf/open/floor/plating,/area/centcom/central_command_areas/armory{name = "Bedroom"})
+"er" = (/turf/closed/wall,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"ew" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/curtain/cloth/fancy/mechanical/start_closed,/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/centcom/interlink{name = "Outdoors"})
+"eO" = (/obj/machinery/vending/games,/turf/open/floor/pod/light,/area/centcom/interlink)
+"eZ" = (/turf/open/indestructible,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"fd" = (/obj/structure/disposalconstruct{dir = 9},/turf/closed/wall,/area/centcom/interlink)
+"fA" = (/obj/structure/sign/poster/official/ian,/turf/closed/wall,/area/centcom/interlink{name = "Outdoors"})
+"fH" = (/turf/open/floor/pod/light,/area/centcom/interlink)
+"gv" = (/obj/structure/sign/chalkboard_menu,/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
+"gw" = (/obj/structure/sign/poster/contraband/secborg_vale,/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
+"gC" = (/obj/machinery/light/dim/directional/east,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
+"hx" = (/obj/machinery/vending/snack/blue{default_price = 0; extended_inventory = 1; extra_price = 0; fair_market_price = 0},/turf/open/floor/pod/light,/area/centcom/interlink)
+"hO" = (/turf/closed/indestructible/riveted,/area/centcom/interlink)
+"in" = (/obj/structure/disposalconstruct{dir = 2},/turf/closed/wall,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"it" = (/obj/structure/disposalconstruct{dir = 2},/turf/closed/indestructible/riveted,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"iA" = (/turf/closed/indestructible/fakedoor,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"iM" = (/obj/machinery/vending/cola/red,/turf/open/floor/pod/light,/area/centcom/interlink)
+"jn" = (/obj/machinery/light/dim/directional/south,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
+"ka" = (/obj/structure/disposalconstruct{dir = 4},/turf/closed/wall,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"kv" = (/obj/machinery/vending/imported/mothic{default_price = 0; extra_price = 0; fair_market_price = 0; extended_inventory = 1},/turf/open/floor/pod/light,/area/centcom/interlink)
+"kC" = (/obj/structure/sign/poster/contraband/operative_duffy,/turf/closed/wall,/area/centcom/interlink{name = "Outdoors"})
+"la" = (/turf/open/floor/wood,/area/centcom/central_command_areas/briefing{name = "Living Room"})
+"le" = (/obj/structure/sign/poster/contraband/shamblers_juice,/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
+"lr" = (/turf/closed/wall,/area/centcom/interlink)
+"mb" = (/obj/machinery/light/small/red/directional/north,/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"mt" = (/obj/structure/sign/poster/contraband/lusty_xenomorph,/turf/closed/wall,/area/centcom/interlink)
+"mx" = (/obj/structure/sign/poster/contraband/self_ai_liberation,/turf/closed/wall,/area/centcom/interlink{name = "Outdoors"})
+"mB" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/curtain/cloth/fancy/mechanical/start_closed,/turf/open/floor/plating,/area/centcom/interlink{name = "Outdoors"})
+"mJ" = (/obj/structure/window/reinforced/plasma/spawner/directional/east,/turf/open/indestructible,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"nK" = (/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
+"op" = (/obj/machinery/static_signal/southwest,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
+"ou" = (/obj/structure/closet/cabinet,/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
+"oR" = (/obj/structure/railing/corner{dir = 8},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"pt" = (/obj/structure/mirror/directional/west,/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
+"pR" = (/obj/structure/railing/corner{dir = 4},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"qh" = (/turf/closed/wall,/area/centcom/central_command_areas/ferry{name = "Hallway"})
+"qi" = (/obj/structure/table/reinforced,/obj/structure/towel_bin,/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"qr" = (/obj/structure/table/wood/fancy/black,/obj/item/flashlight/lamp{pixel_y = 7},/turf/open/floor/wood,/area/centcom/central_command_areas/armory{name = "Bedroom"})
+"qx" = (/obj/machinery/light_switch/directional/west,/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
+"qy" = (/obj/structure/railing,/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"qA" = (/obj/machinery/light/directional/west,/turf/open/floor/pod/light,/area/centcom/interlink)
+"rK" = (/obj/machinery/vending/imported{default_price = 0; extra_price = 0; fair_market_price = 0; extended_inventory = 1},/turf/open/floor/pod/light,/area/centcom/interlink)
+"rM" = (/obj/structure/chair/sofa/corp/right{dir = 2},/turf/open/floor/wood,/area/centcom/central_command_areas/briefing{name = "Living Room"})
+"rN" = (/obj/machinery/button/curtain{id = livingroom1},/turf/closed/wall,/area/centcom/central_command_areas/briefing{name = "Living Room"})
+"sf" = (/obj/structure/disposalconstruct{dir = 5},/turf/closed/wall,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"sA" = (/obj/machinery/door/airlock/bathroom,/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"sH" = (/obj/structure/sink/directional/south,/obj/structure/window/reinforced{dir = 4},/turf/open/indestructible/white,/area/centcom/central_command_areas/prison/cells{name = "Toilet"})
+"ta" = (/obj/machinery/light/directional/west,/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
+"to" = (/obj/structure/sign/departments/medbay/alt/directional/north,/obj/machinery/light/dim/directional/north,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
+"tt" = (/obj/structure/sign/poster/official/ion_rifle,/turf/closed/wall,/area/centcom/interlink{name = "Outdoors"})
+"tD" = (/turf/closed/wall,/area/centcom/central_command_areas/armory{name = "Bedroom"})
+"tI" = (/obj/structure/mirror/directional/north,/turf/open/indestructible/white,/area/centcom/central_command_areas/prison/cells{name = "Toilet"})
+"tW" = (/obj/machinery/door/airlock/command,/turf/open/floor/wood,/area/centcom/central_command_areas/armory{name = "Bedroom"})
+"ug" = (/obj/machinery/light/small/red/directional/east,/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"vj" = (/obj/machinery/button/curtain{id = bedroom1},/turf/closed/wall,/area/centcom/central_command_areas/armory{name = "Bedroom"})
+"wB" = (/obj/structure/sign/poster/contraband/space_cola,/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
+"xV" = (/obj/structure/railing/corner{dir = 8},/obj/structure/disposalconstruct{dir = 2},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"yg" = (/obj/structure/stairs{dir = 4},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"yi" = (/obj/structure/curtain/bounty,/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
+"yO" = (/turf/closed/indestructible/riveted,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"zF" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/curtain/cloth/fancy/mechanical{id = livingroom1},/turf/open/floor/plating,/area/centcom/central_command_areas/briefing{name = "Living Room"})
+"Ar" = (/obj/machinery/light/floor,/turf/open/indestructible,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"AP" = (/obj/structure/railing{dir = 1},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"Bi" = (/obj/structure/bed/double{dir = 4},/obj/item/bedsheet/black/double{dir = 4},/turf/open/floor/wood,/area/centcom/central_command_areas/armory{name = "Bedroom"})
+"By" = (/obj/machinery/vending/coffee{default_price = 0; extended_inventory = 1; extra_price = 0; fair_market_price = 0},/turf/open/floor/pod/light,/area/centcom/interlink)
+"BB" = (/obj/machinery/vending/cigarette/syndicate{default_price = 0; extended_inventory = 1; extra_price = 0; fair_market_price = 0},/turf/open/floor/pod/light,/area/centcom/interlink)
+"BW" = (/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"Cd" = (/turf/closed/wall,/area/centcom/central_command_areas/prison/cells{name = "Toilet"})
+"CU" = (/obj/structure/curtain/cloth/fancy/mechanical/start_closed,/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/centcom/interlink{name = "Outdoors"})
+"Di" = (/obj/structure/disposalconstruct{dir = 2},/obj/machinery/light/small/red/directional/north,/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"Eb" = (/obj/structure/chair/sofa/corp/left{dir = 2},/turf/open/floor/wood,/area/centcom/central_command_areas/briefing{name = "Living Room"})
+"Ex" = (/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"EJ" = (/obj/machinery/vending/imported/tizirian{default_price = 0; extra_price = 0; fair_market_price = 0; extended_inventory = 1},/turf/open/floor/pod/light,/area/centcom/interlink)
+"EZ" = (/obj/structure/sign/poster/contraband/red_rum,/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
+"Fl" = (/obj/structure/table/reinforced/plastitaniumglass,/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"Fp" = (/obj/machinery/barsign/all_access/directional/north,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
+"Ge" = (/turf/closed/wall,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"GO" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/curtain/cloth/fancy/mechanical{id = kitchen1},/turf/open/floor/plating,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"Hf" = (/obj/structure/sign/poster/official/anniversary_vintage_reprint,/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
+"Hu" = (/obj/machinery/vending/wardrobe/syndie_wardrobe,/turf/open/floor/pod/light,/area/centcom/interlink)
+"Hx" = (/obj/machinery/recycler,/obj/machinery/conveyor/auto{dir = 4},/turf/open/indestructible,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"HH" = (/obj/machinery/vending/clothing,/turf/open/floor/pod/light,/area/centcom/interlink)
+"HV" = (/obj/machinery/washing_machine,/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"Jc" = (/obj/structure/railing{dir = 4},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"KN" = (/obj/machinery/light/directional/south,/turf/open/floor/wood,/area/centcom/central_command_areas/briefing{name = "Living Room"})
+"Ly" = (/obj/structure/disposaloutlet,/obj/structure/disposalpipe/trunk{dir = 1},/turf/open/indestructible,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"LJ" = (/obj/structure/railing{dir = 8},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"LT" = (/obj/machinery/door/airlock/glass,/turf/open/floor/pod{name = "floor"},/area/centcom/interlink)
+"LZ" = (/obj/structure/window/reinforced/plasma/spawner/directional/north,/turf/open/indestructible,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"Mp" = (/obj/structure/railing{dir = 8},/obj/structure/disposalconstruct{dir = 2},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"Mq" = (/obj/machinery/vending/cola/black{default_price = 0; extended_inventory = 1; extra_price = 0; fair_market_price = 0},/turf/open/floor/pod/light,/area/centcom/interlink)
+"Mt" = (/obj/structure/sign/calendar/directional/north,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
+"MX" = (/obj/structure/disposalpipe/junction/yjunction,/turf/closed/wall,/area/centcom/interlink)
+"NJ" = (/obj/machinery/light/small{dir = 2},/obj/machinery/door/window{dir = 4},/obj/machinery/light_switch/directional/south,/turf/open/indestructible/white,/area/centcom/central_command_areas/prison/cells{name = "Toilet"})
+"NK" = (/obj/machinery/vending/barbervend,/turf/open/floor/pod/light,/area/centcom/interlink)
+"OX" = (/obj/structure/table/wood/fancy/black,/obj/item/flashlight/lamp/green{pixel_y = 5; pixel_x = 1},/turf/open/floor/wood,/area/centcom/central_command_areas/briefing{name = "Living Room"})
+"PD" = (/obj/structure/disposalpipe/trunk,/obj/machinery/disposal/bin,/turf/open/floor/pod/light,/area/centcom/interlink)
+"PX" = (/obj/machinery/vending/autodrobe,/turf/open/floor/pod/light,/area/centcom/interlink)
+"Qp" = (/obj/machinery/light_switch/directional/east,/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"RL" = (/turf/closed/wall,/area/centcom/central_command_areas/briefing{name = "Living Room"})
+"RR" = (/obj/machinery/vending/donksofttoyvendor,/turf/open/floor/pod/light,/area/centcom/interlink)
+"Se" = (/turf/closed/wall,/area/centcom/interlink{name = "Outdoors"})
+"Sg" = (/obj/machinery/light/directional/east,/obj/machinery/vending/imported/yangyu{default_price = 0; extra_price = 0; fair_market_price = 0; extended_inventory = 1},/turf/open/floor/pod/light,/area/centcom/interlink)
+"SC" = (/obj/structure/stairs{dir = 8},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"SH" = (/turf/closed/indestructible/riveted,/area/centcom/central_command_areas/armory{name = "Bedroom"})
+"SS" = (/turf/open/floor/iron/kitchen,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"TE" = (/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
+"Um" = (/obj/machinery/light/small/red/directional/west,/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"Ut" = (/obj/machinery/door/airlock/centcom,/obj/effect/mapping_helpers/airlock/access/all/command,/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/ferry{name = "Hallway"})
+"UP" = (/turf/closed/indestructible/fakedoor,/area/centcom/interlink{name = "Outdoors"})
+"Vu" = (/obj/structure/sign/poster/official/high_class_martini,/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
+"VC" = (/turf/open/floor/wood,/area/centcom/central_command_areas/armory{name = "Bedroom"})
+"Wb" = (/turf/closed/indestructible/riveted,/area/centcom/central_command_areas/prison/cells{name = "Toilet"})
+"WN" = (/obj/machinery/light/directional/east,/obj/machinery/disposal/bin,/obj/structure/disposalpipe/trunk,/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"Xj" = (/turf/open/floor/pod/light,/area/centcom/interlink{name = "Vending Zone"})
+"XE" = (/obj/machinery/light/directional/south,/turf/open/floor/iron/kitchen,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"XQ" = (/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
+"XT" = (/obj/machinery/light/small/red/directional/south,/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"XU" = (/obj/machinery/light/dim/directional/west,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
+"Yf" = (/obj/structure/dresser,/turf/open/floor/wood,/area/centcom/central_command_areas/armory{name = "Bedroom"})
+"Zn" = (/turf/open/indestructible/white,/area/centcom/central_command_areas/prison/cells{name = "Toilet"})
+"ZB" = (/obj/machinery/light/dim/directional/north,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
+"ZM" = (/obj/structure/toilet{dir = 4},/turf/open/indestructible/white,/area/centcom/central_command_areas/prison/cells{name = "Toilet"})
+"ZW" = (/obj/machinery/button/curtain{id = kitchen1},/turf/closed/wall,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+
+(1,1,1) = {"
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcucucucucucucubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcuSeamamamnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcunKamamamSecubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcuSeTETETEnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcunKTETETEmBcubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcuSeTETETEnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcunKTETETEmBcubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcuSeTETETEnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcunKTETETESecubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcuSeTETEgCnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcumBTETETESecubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcuSeTETETEnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcumBTETETESecubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcumxTETETEnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcumBTETETESecubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcuSeXUTETEnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcumBTETETEmBcubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcuSeTETETEnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcunKTETETEmBcubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcumBTETETEUPcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcunKTETETECUcubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcumBTETETEUPcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcunKTETETEewcubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcumBTETETEnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcumBTETETEewcubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcuSeTETEgCnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcumBTETETESecubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcuSeTETETEnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcumBTETETESecubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcukCTETETEnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcumBTETETESecubDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcuSeXUTETEnKcubDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDcunKTETETEUPcubDbDbDbDbDbDbDbDbDbD
+bDbDcucucucucucucucucucucucucucucucucucucuSeTETETEbdcucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucunKTETETEUPcucucucucucubDbDbDbDbD
+bDbDcuSeSettmBmBmBSefASeSemBmBSeSeUPUPSeSeSeTETETEnKnKnKnKnKnKVugwnKEZnKwBnKnKgvnKamamnKCUCUCUnKnKmBmBmBleHfmBmBmBnKnKnKnKTETETESeSeSeSeSeSecubDbDbDbDbD
+bDbDcuamTETETETETETETETETETETETETETETETETETETETEopZBTETETETETETETETETEZBTETETETETETETEMtTETETEFpTETETETETETETETETEZBTETEtoTETEopTETETETETEamcubDbDbDbDbD
+bDbDcuamTETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETETEamcubDbDbDbDbD
+bDbDcuamjnTETETETETETETETETETEjnTETETETETETETETETETETETETEjnTETETETETETETETETETETETEjnTETETETETETETETETETEjnTETETETETETETETEjnTETETETETETEamcubDbDbDbDbD
+bDbDcuSeSeSeSemBmBmBmBSeSeSeSeSeSeSeSeSemBmBSeSeSemBmBSeSeSetDtDdYdYvjtDzFzFzFrNRLqhqhqhqhGOGOGOZWGeGeGeGeGeSeSeSeSemBCUSeSeSeSeSeCUCUSeSeSecubDbDbDbDbD
+bDbDcucucucucucucucucucucucucucucucucucucucucucucucucucucucuSHtDBiVCVCtWlalaOXrMEbqhXQXQqhFlFlExSSSSSSSSGecAcucucucucucucucucucucucucucucucucubDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDSHtDqrYfdUtDlalalalalaqhtaXQqhaGdyExSSSSSSXEGecAbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDSHtDtDtDtDtDlalalalalayiXQXQyiExExQpGeGeGeGeGecAbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDSHSHSHSHSHtDlalalalalaqhptouqhHVExExsAtIsHZnCdWbbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDSHtDlalaKNlaacqhqxouqhqiExWNGeZMNJZnCdWbhOhOhOhOhOhObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDSHtDRLRLRLRLRLqhUtqhqhGeGeinGeCdlrlrlrlrlrlrlrlrlrhObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDyOerBWBWJcSCSCmbBWBWJcSCSCDiBWBWlrBBhxeOrKkvEJSglrhObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDyOiABWBWpRAPAPBWBWBWpRAPAPbiBWuglrfHfHfHfHfHfHfHlrhObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDyOerUmBWBWqyqyoRBWdHBWqyqyxVBWBWLTfHfHfHfHfHfHBylrhObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDyOerBWBWXTygygLJBWBWXTygygMpBWBWlrPDiMMqfHfHfHfHlrhObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDyOererererererereriAererersfkakaMXfdlrlrqAfHfHXjmthObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDyOyOyOyOyOyOyOyOyOyOyOyOyOyOyOyOityOyOlrfHfHfHfHlrhObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDyOAreZeZeZmJLyAryOlrfHfHfHNKlrhObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDyOeZeZeZeZmJcEHxyOlrHufHfHHHlrhObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDyOeZeZeZeZeZLZLZyOlrRRfHfHPXlrhObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDyOAreZeZeZeZeZAryOlrlrlrlrlrlrhObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDyOyOyOyOyOyOyOyOyOhOhOhOhOhOhOhObDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+bDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbDbD
+"}
