@@ -1,5 +1,5 @@
 "ao" = (/obj/machinery/oven/range,/turf/open/floor/iron/kitchen,/area/centcom/central_command_areas/supply{name = "Kitchen"})
-"aG" = (/obj/structure/table/reinforced/rglass,/obj/machinery/coffeemaker/impressa,/obj/item/reagent_containers/cup/coffeepot,/turf/open/floor/wood{planetary_atmos = 1},/area/centcom/central_command_areas/briefing{name = "Living Room"})
+"aG" = (/obj/structure/table/reinforced/rglass,/obj/machinery/coffeemaker/impressa,/obj/item/reagent_containers/cup/coffeepot,/obj/structure/disposalpipe/segment{dir = 2},/turf/open/floor/wood{planetary_atmos = 1},/area/centcom/central_command_areas/briefing{name = "Living Room"})
 "bp" = (/obj/structure/table/wood/fancy/black,/obj/item/flashlight/lamp/green{pixel_y = 5; pixel_x = 1},/turf/open/floor/wood,/area/centcom/central_command_areas/briefing{name = "Living Room"})
 "bH" = (/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
 "bN" = (/obj/structure/sign/poster/official/ion_rifle,/turf/closed/wall,/area/centcom/interlink{name = "Outdoors"})
@@ -13,12 +13,13 @@
 "db" = (/turf/closed/indestructible/riveted,/area/centcom/interlink)
 "dm" = (/obj/structure/closet/cabinet,/obj/machinery/atmospherics/components/unary/passive_vent{dir = 2},/turf/open/floor/wood,/area/centcom/central_command_areas/armory{name = "Bedroom"})
 "dW" = (/turf/open/indestructible,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
-"ef" = (/obj/structure/table/reinforced,/obj/machinery/microwave,/turf/open/floor/iron/kitchen,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"ef" = (/obj/structure/table/reinforced,/obj/machinery/processor{pixel_y = 20; pixel_x = -11},/obj/machinery/microwave{pixel_y = 5; pixel_x = 4; layer = 3},/turf/open/floor/iron/kitchen,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "eo" = (/obj/structure/table/reinforced/plastitaniumglass,/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "eY" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/curtain/cloth/fancy/mechanical{id = bedroom1},/turf/open/floor/plating,/area/centcom/central_command_areas/armory{name = "Bedroom"})
 "fA" = (/obj/machinery/button/curtain{id = kitchen1},/turf/closed/wall,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "fS" = (/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
 "gd" = (/obj/structure/window/reinforced/plasma/spawner/directional/east,/turf/open/indestructible,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"gC" = (/obj/effect/decal/cleanable/dirt,/obj/structure/disposalpipe/segment{dir = 2},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
 "gK" = (/turf/closed/wall,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "gZ" = (/obj/machinery/vending/wardrobe/syndie_wardrobe,/turf/open/floor/pod/light,/area/centcom/interlink)
 "hg" = (/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
@@ -35,12 +36,14 @@
 "lH" = (/obj/structure/disposalpipe/segment{dir = 10},/turf/closed/wall,/area/centcom/interlink)
 "mj" = (/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{dir = 4},/obj/structure/disposalpipe/segment{dir = 2},/turf/closed/wall,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "mz" = (/obj/machinery/conveyor/auto{dir = 4},/turf/open/indestructible,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"nE" = (/obj/effect/decal/cleanable/dirt,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
 "nQ" = (/turf/closed/wall,/area/centcom/central_command_areas/prison/cells{name = "Toilet"})
 "od" = (/obj/machinery/washing_machine,/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "ol" = (/obj/effect/decal/cleanable/glass,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
 "on" = (/obj/machinery/vending/imported/mothic{default_price = 0; extra_price = 0; fair_market_price = 0; extended_inventory = 1},/turf/open/floor/pod/light,/area/centcom/interlink)
 "ox" = (/obj/machinery/vending/imported/tizirian{default_price = 0; extra_price = 0; fair_market_price = 0; extended_inventory = 1},/turf/open/floor/pod/light,/area/centcom/interlink)
 "oD" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
+"oH" = (/obj/structure/filingcabinet{pixel_x = 11},/turf/open/floor/carpet/red,/area/centcom/central_command_areas/briefing{name = "Living Room"})
 "oO" = (/obj/machinery/vending/snack/blue{default_price = 0; extended_inventory = 1; extra_price = 0; fair_market_price = 0},/turf/open/floor/pod/light,/area/centcom/interlink)
 "po" = (/turf/open/space/basic,/area/space)
 "pw" = (/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{dir = 4},/turf/closed/wall,/area/centcom/central_command_areas/briefing{name = "Living Room"})
@@ -61,19 +64,22 @@
 "th" = (/obj/machinery/atmospherics/components/unary/passive_vent{dir = 4},/turf/open/indestructible{planetary_atmos = 1; name = "atmos"},/area/space)
 "tn" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/glass,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
 "tC" = (/obj/machinery/door/poddoor/shutters/indestructible,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
-"tM" = (/obj/machinery/light/small/blacklight/directional/west,/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"tG" = (/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{dir = 4},/obj/structure/disposalpipe/segment{dir = 2},/turf/closed/wall,/area/centcom/central_command_areas/briefing{name = "Living Room"})
+"tM" = (/obj/machinery/light/small/blacklight/directional/west,/obj/structure/disposalpipe/segment{dir = 2},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
 "tQ" = (/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{dir = 4},/turf/closed/wall,/area/centcom/interlink)
 "tY" = (/turf/closed/indestructible/riveted,/area/centcom/central_command_areas/supply{name = "Kitchen"})
-"ub" = (/obj/effect/spawner/random/trash/cigbutt,/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"ub" = (/obj/effect/spawner/random/trash/cigbutt,/obj/structure/disposalpipe/segment{dir = 5},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
 "uV" = (/obj/structure/bed/double{dir = 4},/obj/item/bedsheet/black/double{dir = 4},/turf/open/floor/wood,/area/centcom/central_command_areas/armory{name = "Bedroom"})
 "vk" = (/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{dir = 4},/turf/closed/wall,/area/centcom/central_command_areas/prison/cells{name = "Toilet"})
 "wp" = (/obj/machinery/button/curtain{id = bedroom1},/turf/closed/wall,/area/centcom/central_command_areas/armory{name = "Bedroom"})
 "wQ" = (/turf/closed/indestructible/riveted,/area/space)
-"xf" = (/obj/machinery/shower/directional/west,/obj/structure/drain/big,/turf/open/indestructible/white,/area/centcom/central_command_areas/prison/cells{name = "Toilet"})
+"xf" = (/obj/machinery/shower/directional/west{reagent_capacity = 5000; refill_rate = 100},/obj/structure/drain/big,/turf/open/indestructible/white,/area/centcom/central_command_areas/prison/cells{name = "Toilet"})
 "xC" = (/obj/structure/rack/shelf/wooden,/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
 "xI" = (/obj/structure/curtain/cloth/fancy/mechanical/start_closed,/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/centcom/interlink{name = "Outdoors"})
+"xS" = (/obj/structure/sink/kitchen/directional/west,/turf/open/floor/iron/kitchen,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "yh" = (/turf/closed/wall,/area/centcom/central_command_areas/ferry{name = "Hallway"})
 "yu" = (/mob/living/simple_animal/bot/medbot/stationary{name = "Something Somewhere"; medical_mode_flags = 2},/turf/open/indestructible,/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"yB" = (/obj/machinery/disposal/bin,/obj/structure/disposalpipe/trunk,/turf/open/floor/carpet/red,/area/centcom/central_command_areas/briefing{name = "Living Room"})
 "yO" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/disposalpipe/segment{dir = 2},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
 "zd" = (/turf/closed/wall,/area/centcom/central_command_areas/briefing{name = "Living Room"})
 "zk" = (/obj/structure/sign/departments/medbay/alt/directional/north,/obj/machinery/light/dim/directional/north,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
@@ -95,7 +101,7 @@
 "CD" = (/obj/machinery/door/airlock/glass,/turf/open/floor/pod{name = "floor"},/area/centcom/interlink)
 "Dr" = (/obj/structure/railing,/obj/effect/spawner/random/trash/cigbutt,/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
 "Ds" = (/obj/machinery/light_switch/directional/west,/obj/machinery/light/directional/west,/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
-"DC" = (/obj/structure/closet/cabinet,/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
+"DC" = (/obj/structure/closet/cabinet{anchored = 1},/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
 "DD" = (/obj/structure/closet/secure_closet/freezer/kitchen/maintenance{name = "refrigerator"},/obj/item/food/meat/slab,/obj/item/food/meat/slab,/obj/item/food/meat/slab,/obj/item/food/meat/slab,/obj/item/food/meat/slab,/obj/item/food/meat/slab,/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "Eg" = (/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
 "Ej" = (/obj/structure/sign/poster/contraband/operative_duffy,/turf/closed/wall,/area/centcom/interlink{name = "Outdoors"})
@@ -120,7 +126,7 @@
 "Ky" = (/obj/structure/dresser,/turf/open/floor/wood,/area/centcom/central_command_areas/armory{name = "Bedroom"})
 "KG" = (/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
 "KO" = (/obj/machinery/door/morgue,/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
-"KW" = (/obj/structure/closet/cabinet,/obj/machinery/atmospherics/components/unary/passive_vent{dir = 2},/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
+"KW" = (/obj/machinery/atmospherics/components/unary/passive_vent{dir = 2},/obj/structure/closet/cabinet{anchored = 1},/turf/open/floor/wood,/area/centcom/central_command_areas/ferry{name = "Hallway"})
 "Lk" = (/obj/machinery/vending/boozeomat{default_price = 0; extended_inventory = 1; extra_price = 0; fair_market_price = 0},/turf/open/floor/pod/light,/area/centcom/interlink{name = "Vending Zone"})
 "Lt" = (/obj/structure/sign/poster/contraband/red_rum,/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
 "LE" = (/obj/structure/railing/corner{dir = 8},/obj/structure/disposalpipe/segment{dir = 2},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
@@ -136,9 +142,9 @@
 "Pc" = (/obj/machinery/griddle,/turf/open/floor/iron/kitchen,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "Pg" = (/obj/structure/chair/sofa/corp/left{dir = 2},/turf/open/floor/wood,/area/centcom/central_command_areas/briefing{name = "Living Room"})
 "Pp" = (/turf/closed/wall,/area/centcom/central_command_areas/armory{name = "Bedroom"})
-"Py" = (/obj/machinery/light/small/blacklight/directional/south,/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"Py" = (/obj/machinery/light/small/blacklight/directional/south,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
 "PN" = (/turf/closed/indestructible/fakedoor,/area/centcom/interlink{name = "Outdoors"})
-"Qs" = (/obj/structure/railing{dir = 8},/obj/structure/disposalpipe/segment{dir = 5},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"Qs" = (/obj/structure/railing{dir = 8},/obj/structure/disposalpipe/junction/flip{dir = 4},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
 "QG" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/atmospherics/components/unary/passive_vent{dir = 1},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
 "QU" = (/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{dir = 4},/turf/closed/wall,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "QX" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/curtain/cloth/fancy/mechanical/start_closed,/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/centcom/interlink{name = "Outdoors"})
@@ -148,14 +154,14 @@
 "RM" = (/obj/machinery/barsign/all_access/directional/north,/obj/effect/decal/cleanable/dirt,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
 "RO" = (/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{dir = 4},/turf/closed/indestructible/riveted,/area/centcom/central_command_areas/armory{name = "Bedroom"})
 "Sc" = (/obj/structure/railing{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
-"So" = (/obj/structure/table/reinforced/rglass,/obj/item/storage/box/coffeepack/robusta,/obj/item/storage/box/coffeepack,/turf/open/floor/carpet/red,/area/centcom/central_command_areas/briefing{name = "Living Room"})
+"So" = (/obj/structure/table/reinforced/rglass,/obj/structure/disposalpipe/segment{dir = 2},/obj/item/modular_computer/laptop/preset/syndicate{long_ranged = 1},/obj/machinery/recharger{pixel_y = -10; pixel_x = -9},/turf/open/floor/carpet/red,/area/centcom/central_command_areas/briefing{name = "Living Room"})
 "St" = (/obj/machinery/atmospherics/components/unary/passive_vent{dir = 2},/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "Sx" = (/obj/machinery/vending/barbervend,/turf/open/floor/pod/light,/area/centcom/interlink)
 "SK" = (/obj/machinery/light/dim/directional/south,/turf/open/floor/stone,/area/centcom/interlink{name = "Outdoors"})
 "Tc" = (/obj/machinery/light/directional/south,/turf/open/floor/wood,/area/centcom/central_command_areas/briefing{name = "Living Room"})
-"Tj" = (/obj/machinery/light/directional/north,/obj/structure/table/reinforced,/turf/open/floor/iron/kitchen,/area/centcom/central_command_areas/supply{name = "Kitchen"})
+"Tj" = (/obj/machinery/light/directional/north{pixel_x = -11},/obj/structure/table/reinforced,/turf/open/floor/iron/kitchen,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "Tr" = (/obj/machinery/vending/cola/red,/turf/open/floor/pod/light,/area/centcom/interlink)
-"Ts" = (/obj/structure/stairs{dir = 4},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"Ts" = (/obj/structure/stairs{dir = 4},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
 "Tz" = (/obj/structure/table/reinforced,/obj/structure/towel_bin,/turf/open/floor/wood,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "TA" = (/turf/open/floor/iron/kitchen,/area/centcom/central_command_areas/supply{name = "Kitchen"})
 "TS" = (/obj/machinery/vending/dinnerware,/turf/open/floor/pod/light,/area/centcom/interlink)
@@ -167,9 +173,10 @@
 "VC" = (/turf/open/floor/wood,/area/centcom/central_command_areas/armory{name = "Bedroom"})
 "VD" = (/turf/open/floor/wood,/area/centcom/central_command_areas/briefing{name = "Living Room"})
 "Wz" = (/obj/structure/sign/chalkboard_menu,/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
-"WF" = (/obj/structure/railing{dir = 8},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
+"WF" = (/obj/structure/railing{dir = 8},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/pod{name = "floor"},/area/centcom/central_command_areas/evacuation{name = "Staircase"})
 "WR" = (/obj/machinery/vending/games,/turf/open/floor/pod/light,/area/centcom/interlink)
 "Xt" = (/obj/structure/sign/poster/contraband/syndicate_medical,/turf/closed/indestructible/reinforced,/area/centcom/interlink{name = "Outdoors"})
+"Ym" = (/obj/structure/closet/secure_closet/personal/wall{pixel_x = -27; req_access = list()},/obj/item/storage/box/coffeepack,/obj/item/storage/box/coffeepack/robusta,/turf/open/floor/carpet/red,/area/centcom/central_command_areas/briefing{name = "Living Room"})
 "Yr" = (/obj/machinery/light_switch/directional/east,/obj/structure/bed/pillow_large,/obj/item/pillow/random{pixel_y = 1; pixel_x = -1},/obj/item/pillow/random{pixel_x = 7; pixel_y = -2},/obj/item/pillow/random{pixel_y = -6; pixel_x = 5},/obj/item/pillow/random{pixel_y = -5; pixel_x = -6},/turf/open/floor/wood,/area/centcom/central_command_areas/briefing{name = "Living Room"})
 "YO" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/curtain/cloth/fancy/mechanical/start_closed,/turf/open/floor/plating,/area/centcom/interlink{name = "Outdoors"})
 "Zs" = (/obj/structure/sign/poster/contraband/self_ai_liberation,/turf/closed/wall,/area/centcom/interlink{name = "Outdoors"})
@@ -205,15 +212,15 @@ popohmtCEgEgEgEgEgEgEgEgEgEgEgEgEgEgEgEgEgEgEgoDtaoDoDEgEgoDoDEgoDEgEgEgoDEgEgEg
 popohmtCSKEgEgEgEgEgEgEgEgEgEgSKEgEgEgEgEgEgEgEgEgEgEgEgEgSKEgoDEgEgEgolEgoDoDoDEgEgSKEgoDEgEgEgoDoDoDEgEgSKEgEgEgEgEgEgoDoDSKoDEgEgEgEgEgtChmpopopopopo
 popohmzpzpzpzpYOYOYOYOzpzpzpzpzpzpzpzpzpYOYOzpzpzpYOYOzpzpzpPpPpeYeYwpPpcRcRcRJtzdyhyhyhyhkekekefAgKgKgKgKgKzpzpzpzpYOxIzpzpzpzpzpxIxIzpzpzphmpopopopopo
 popohmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmRKPpuVVCVCqiVDVDbpHxPgyhxCxCyheoeoDDPcaoTjefgKtYhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmhmpopopopopo
-popopopopopopopopopopopopopopopopopopopopopopopopopopopopopoRKPpZRKydmPpBIBIBIBIBIyhKOKOyhschskLTATATATAgKtYpopopopopopopopopopopopopopopopopopopopopopo
-popopopopopopopopopopopopopopopopopopopopopopopopopopopopopoRKPpPpPpqwPpBIBIBIBIBIMaKGKGMakLkLAxgKgKgKgKgKtYpopopopopopopopopopopopopopopopopopopopopopo
-popopopopopopopopopopopopopopopopopopopopopopopopopopopopopoRKRKRKRKROPpSoIeBIBIBIyhzuDCyhodkLkLGrqARCxfnQMWpopopopopopopopopopopopopopopopopopopopopopo
+popopopopopopopopopopopopopopopopopopopopopopopopopopopopopoRKPpZRKydmPpYmBIBIBIBIyhKOKOyhschskLTATATAxSgKtYpopopopopopopopopopopopopopopopopopopopopopo
+popopopopopopopopopopopopopopopopopopopopopopopopopopopopopoRKPpPpPpqwPpyBBIBIBIBIMaKGKGMakLkLAxgKgKgKgKgKtYpopopopopopopopopopopopopopopopopopopopopopo
+popopopopopopopopopopopopopopopopopopopopopopopopopopopopopoRKRKRKRKROPpSoIeBIBIoHyhzuDCyhodkLkLGrqARCxfnQMWpopopopopopopopopopopopopopopopopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopowQthROPpaGJETcVDYryhDsKWyhTzStBVgKbUckcFnQMWdbdbdbdbdbdbpopopopopopopopopopopopopopopopo
-popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopowQwQROqwpwpwpwpwpwNKOvNKNKQUQUmjQUvktQJRJRJRJRJRJRJRJRdbpopopopopopopopopopopopopopopopo
-popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopoJuCwbHQGbYJeJebHbHqpbYJeJerYlvbHtQIyoOWRUKonoxHhJRdbpopopopopopopopopopopopopopopopo
-popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopoJuizlvlvFFScScbHbHbHcPZvScyOlvGhtQAFAnJwJwJwJwJwJRdbpopopopopopopopopopopopopopopopo
+popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopowQwQROqwtGpwpwpwpwNKOvNKNKQUQUmjQUvktQJRJRJRJRJRJRJRJRdbpopopopopopopopopopopopopopopopo
+popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopoJuCwrYQGbYJeJebHbHqpbYJeJerYlvbHtQIyoOWRUKonoxHhJRdbpopopopopopopopopopopopopopopopo
+popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopoJuizgClvFFScScbHbHbHcPZvScyOlvGhtQAFAnJwJwJwJwJwJRdbpopopopopopopopopopopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopoJuCwtMbHbHqChqqVbHbHbHDrhqLEbHbHCDJwJwCyJwJwJwjtJRdbpopopopopopopopopopopopopopopopo
-popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopoJuCwublvlvTsTsWFPylvbHTsTsQshghglHpETrNsJwJwMKLJJRdbpopopopopopopopopopopopopopopopo
+popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopoJuCwubnEnETsTsWFPynEhgTsTsQshghglHpETrNsJwJwMKLJJRdbpopopopopopopopopopopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopoJuCwCwCwCwCwCwCwCwizCwCwCwCwCwCwFmzNJRJRErAnJwLkAhdbpopopopopopopopopopopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopoJuJuJuJuJuJuJuJuJuJuJuJuJuJuJuJuFIJuJuJRJwAnJwTSJRdbpopopopopopopopopopopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopoJupPdWdWdWgdOlpPJuJRJwJwAnSxJRdbpopopopopopopopopopopopopopopopo
