@@ -13,7 +13,7 @@
 	flags_1 = PREVENT_CONTENTS_EXPLOSION_1
 	examine_cursor_icon = null
 	fire_stack_decay_rate = -0.55
-	voice_filter = "afftfilt=real='hypot(re,im)*sin(0)':imag='hypot(re,im)*cos(0)':win_size=512:overlap=1,rubberband=pitch=0.8"
+	tts_silicon_voice_effect = TRUE
 	var/datum/ai_laws/laws = null//Now... THEY ALL CAN ALL HAVE LAWS
 	var/last_lawchange_announce = 0
 	var/list/alarms_to_show = list()
@@ -58,6 +58,10 @@
 	if(SStts.tts_enabled)
 		voice = pick(SStts.available_speakers)
 	GLOB.silicon_mobs += src
+	// THE FLUFFY FRONTIER EDIT BEGIN
+	if(iscyborg(src))
+		initial_language_holder = /datum/language_holder/synthetic/cyborg
+	// THE FLUFFY FRONTIER EDIT END
 	faction += FACTION_SILICON
 	if(ispath(radio))
 		radio = new radio(src)

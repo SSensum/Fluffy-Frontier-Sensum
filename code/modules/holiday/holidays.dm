@@ -358,7 +358,9 @@
 
 /datum/holiday/pride_week
 	name = PRIDE_WEEK
-	begin_month = JUNE
+//FF edit begin
+	begin_month = 0
+//FF edit end
 	// Stonewall was June 28th, this captures its week.
 	begin_day = 23
 	end_day = 29
@@ -658,6 +660,26 @@
 	end_day = 27
 	drone_hat = /obj/item/clothing/head/costume/santa
 	mail_holiday = TRUE
+
+/datum/holiday/xmas/getStationPrefix()
+	return pick(
+		"Bible",
+		"Birthday",
+		"Chimney",
+		"Claus",
+		"Crucifixion",
+		"Elf",
+		"Fir",
+		"Ho Ho Ho",
+		"Jesus",
+		"Jolly",
+		"Merry",
+		"Present",
+		"Sack",
+		"Santa",
+		"Sleigh",
+		"Yule",
+	)
 
 /datum/holiday/xmas/greet()
 	return "Have a merry Christmas!"
