@@ -1,7 +1,7 @@
 /obj/item/chill_activator
 	name = "chill activator"
 	desc = "This item gives you traits and other stuff for <i>chillin'</i> purposes."
-	icon = 'icons/obj/camera.dmi'
+	icon = 'icons/obj/art/camera.dmi'
 	icon_state = "album"
 
 /obj/item/chill_activator/attack_self(mob/user, modifiers)
